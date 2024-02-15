@@ -41,7 +41,7 @@ try {
                     <input 
                         type="checkbox" 
                         name="progress"
-                        class="progress <?= ['completed'] ? 'done' : '' ?> "
+                        class="progress <?= ['completed'] ? '' : 'done' ?> "
                         data-task-id="<?= $task['id']?>"
                         <?= $task['completed'] ? 'checked' : '' ?>
                     >

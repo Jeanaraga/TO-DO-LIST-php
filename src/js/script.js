@@ -37,30 +37,3 @@ $(document).ready(function (){
     })
 
 });
-
-// Em javascript puro
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     var editButtons = document.querySelectorAll('.edit-button');
-//     var progressCheckboxes = document.querySelectorAll('.progress');
-
-//     editButtons.forEach(function (editButton) {
-//         editButton.addEventListener('click', function () {
-//             var task = this.closest('.task');
-//             task.querySelector('.progress').classList.add('hidden');
-//             task.querySelector('.task-description').classList.add('hidden');
-//             task.querySelector('.task-action').classList.add('hidden');
-//             task.querySelector('.edit-task').classList.remove('hidden');
-//         });
-//     });
-
-//     progressCheckboxes.forEach(function (progressCheckbox) {
-//         progressCheckbox.addEventListener('click', function () {
-//             if (this.checked) {
-//                 this.classList.add('done');
-//             } else {
-//                 this.classList.remove('done');
-//             }
-//         });
-//     });
-// });

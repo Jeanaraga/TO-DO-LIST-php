@@ -37,7 +37,7 @@ try {
 
         <div id="tasks">
             <?php foreach($tasks as $task): ?> 
-                <div class="task">
+                <div class="task" id="<?= $task['id'] ?>">
                     <input 
                         type="checkbox" 
                         name="progress"
